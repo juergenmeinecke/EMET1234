@@ -7,23 +7,9 @@ Comp Labs
     has written all the Python code throughout.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    computer_labs/week_1.ipynb
    computer_labs/week_2.ipynb
 
 
-Week 1
-===========
-
-Slides will be **updated** as we go along. 
-
-computer_labs/week_1.ipynb
-
-
-Week 2
-========
-
-Slides will be **updated** as we go along. 
-
-computer_labs/week_2.ipynb
