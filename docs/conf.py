@@ -16,6 +16,7 @@ extensions = [
     "sphinx_rtd_theme",
 ]
 
+html_theme = "sphinx_rtd_theme"  # built-in (no extra install)
 
 html_theme_options = {
     # nice defaults for course sites:
@@ -51,8 +52,6 @@ nb_execution_mode = "off"
 # Optional: show tracebacks nicely if a notebook *is* executed in the future
 nb_execution_show_tb = True
 
-# -- Options for HTML output -------------------------------------------------
-html_theme = "sphinx_rtd_theme"  # built-in (no extra install)
 
 # If you later install a nicer theme, you can switch to e.g.:
 # html_theme = "furo"
