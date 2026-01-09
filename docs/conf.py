@@ -14,7 +14,24 @@ extensions = [
     "myst_nb",                   # render .ipynb as pages
     "sphinx.ext.autosectionlabel",
     "sphinx_rtd_theme",
+    "jupyterlite_sphinx",
 ]
+
+extensions += [
+    "jupyterlite_sphinx",
+]
+
+# IMPORTANT if you already render notebooks with myst-nb:
+# avoid jupyterlite-sphinx trying to "own" .ipynb as a Sphinx source suffix
+jupyterlite_bind_ipynb_suffix = False  # prevents conflicts/warnings :contentReference[oaicite:3]{index=3}
+
+# Ship notebooks + CSVs into the JupyterLite "Files" area
+jupyterlite_contents = [
+    "computer_labs/**/*.ipynb",
+    "data/**/*.csv",
+]
+
+
 
 html_theme = "sphinx_rtd_theme"  # built-in (no extra install)
 
