@@ -13,7 +13,17 @@ extensions = [
     "sphinx.ext.mathjax",        # LaTeX math in .rst (and MyST markdown)
     "myst_nb",                   # render .ipynb as pages
     "sphinx.ext.autosectionlabel",
+    "sphinx_rtd_theme",
 ]
+
+
+html_theme_options = {
+    # nice defaults for course sites:
+    "collapse_navigation": False,
+    "navigation_depth": 3,
+    "sticky_navigation": True,
+}
+
 
 # If you want to reference headings across files without duplicates warnings:
 autosectionlabel_prefix_document = True
@@ -42,7 +52,7 @@ nb_execution_mode = "off"
 nb_execution_show_tb = True
 
 # -- Options for HTML output -------------------------------------------------
-html_theme = "alabaster"  # built-in (no extra install)
+html_theme = "sphinx_rtd_theme"  # built-in (no extra install)
 
 # If you later install a nicer theme, you can switch to e.g.:
 # html_theme = "furo"
