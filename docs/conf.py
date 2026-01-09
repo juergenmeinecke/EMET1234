@@ -13,7 +13,6 @@ extensions = [
     "sphinx.ext.mathjax",        # LaTeX math in .rst (and MyST markdown)
     "myst_nb",                   # render .ipynb as pages
     "sphinx.ext.autosectionlabel",
-    "sphinx_rtd_theme",
 ]
 
 html_theme = "sphinx_rtd_theme"  # built-in (no extra install)
