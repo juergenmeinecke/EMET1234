@@ -9,9 +9,8 @@ Comp Labs
 .. toctree::
    :maxdepth: 2
 
-
-    computer_labs/week_1.ipynb
-    computer_labs/week_2.ipynb
+   computer_labs/week_1.ipynb
+   computer_labs/week_2.ipynb
 
 
 Week 1
